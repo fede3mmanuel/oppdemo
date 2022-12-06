@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val car = Car()
-        car.start()
+        val d = Driver("Tom", 37)
+        d.showDetails()
     }
 }
