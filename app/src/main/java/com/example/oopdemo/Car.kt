@@ -2,7 +2,7 @@ package com.example.oopdemo
 
 import android.util.Log
 
-class Car {
+open class Car {
     var maxSpeed = 30
 
     fun start(){
