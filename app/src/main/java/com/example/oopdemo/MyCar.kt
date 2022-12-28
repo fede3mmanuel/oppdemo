@@ -2,8 +2,16 @@ package com.example.oopdemo
 
 import android.util.Log
 
-class MyCar : Car(){
+class MyCar : Car(), SpeedController{
     override fun start() {
-        Log.i( "MyTag", "this is MyCar Starting")
+        Log.i( "MyTag", "this is MyCar Starting...Brand id is ${getBrandId()}")
+    }
+
+    override fun accelerate() {
+
+    }
+
+    override fun decelerate() {
+
     }
 }
